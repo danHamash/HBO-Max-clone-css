@@ -1,11 +1,11 @@
-
-   body{
-    background:url(/hbomax-template-desafio/assets/images/background-movies-series.png);
+body {
+    background: url(/hbomax-template-desafio/assets/images/background-movies-series.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
-.main-content{
+
+.main-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,16 +13,19 @@
     width: 100%;
     padding: 20px;
 }
-.login-title{
+
+.login-title {
     font-size: 1.4rem;
     margin-bottom: 3rem;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.login-subtitle{
+
+.login-subtitle {
     display: flex;
     padding-bottom: 1rem;
 }
+
 .login {
     width: 100%;
     max-width: 800px;
@@ -33,7 +36,8 @@
     margin-top: 10rem;
     padding-bottom: 5rem;
 }
-.input-container input{
+
+.input-container input {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,25 +46,27 @@
     width: 100%;
     height: 53px;
     background: var(--form-field-bg-color);
-    outline:none ;
+    outline: none;
     border: var(--form-field-border);
     border-radius: 9px;
 }
-.input-container input::placeholder{
+
+.input-container input::placeholder {
     color: var(--text-color);
     padding: 1rem;
     font-size: 1rem;
 }
-.main-link{
+
+.main-link {
     height: 13px;
     text-align: left;
     padding-top: 1.5rem;
 }
-.senha-reset{
+
+.senha-reset {
     text-decoration: none;
     color: var(--link-color);
     font-weight: bold;
     letter-spacing: 2px;
     padding-left: 1.5rem;
 }
-
