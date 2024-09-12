@@ -211,8 +211,6 @@ p {
   background-image: url(/hbomax-template-desafio/assets/images/background-movies-series.png);
   background-size: cover;
   position: relative;
-  display: flex;
-  flex-direction: row;
 }
 
 .plano-title {
@@ -372,9 +370,6 @@ p {
   gap: 3rem;
   padding-bottom: 3rem;
 }
-
-
-
 
 
 
