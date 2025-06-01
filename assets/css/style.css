@@ -208,7 +208,7 @@ p {
 }
 
 .plano-card {
-  background-image: url(/hbomax-template-desafio/assets/images/background-movies-series.png);
+  background-image: url(../images/background-movies-series.png);
   background-size: cover;
   position: relative;
 }
